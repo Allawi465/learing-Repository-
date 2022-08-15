@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='CSS/style.css' rel='stylesheet'/>
+    <title>Beginning JS</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <h1>JavaScript</h1>
+         <nav>
+            <a href="index.html">Event</a>   
+            <a href="DOM_Js.html">DOM</a>
+            <a href="search-game.html">Favourite</a>
+         </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Cat Facts</h1>
+
+        <div class="results">
+            <div class="loader"></div>
+        </div>
+
+        <select>
+            <option value="">Select an option</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="30">30</option>
+            <option value="100">100</option>
+        </select>
+
+        <div class="circles"></div>
+
+        <div class="div-container">  
+          <div data-content="first content">One</div>
+          <div data-content="second content">Two</div>
+          <div data-content="third content">Three</div>
+        </div>
+
+        <div class="display"></div>
+
+        <div class="container">
+            <form>
+                <p>*Your message must be a minimum of 5 characters</p>
+    
+                <textarea placeholder="Message"
+                cols="40" rows="4"></textarea>
+                
+    
+                <div class="character-count">Character count:<span>0</span></div>
+    
+                <div>
+                    <button class="sumitButton" type="submit" disabled>Send</button>
+                </div>
+    
+            </form>
+        </div>
+    </main>
+
+    <script src="js/events/events.js" type="module"></script>
+</body>
+</html>
